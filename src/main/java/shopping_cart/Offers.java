@@ -17,7 +17,7 @@ public class Offers {
         return  qty;
     }
 
-    public void checkMilkOffer(Cart cart) {
+    public void checkOffer(Cart cart) {
 
         offer = new Offers();
         int milkQuantity = offer.getMilkQuantity(cart);

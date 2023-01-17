@@ -19,7 +19,7 @@ public class Controller{
         double shoppingCartCost = cart1.getShoppingCartCost(itemList);
 
         Offers offers = new Offers();
-       offers.checkMilkOffer(cart1);
+       offers.checkOffer(cart1);
 
        WalletPayment walletPayment = new WalletPayment();
        walletPayment.pay(shoppingCartCost);

@@ -1,5 +1,4 @@
 package fruitbowl;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.util.ArrayList;
@@ -18,12 +17,5 @@ public class FruitBowl {
         return fruitArrayList;
     }
 }
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-class Fruit{
-    public String name;
-    public String color;
-    public String size;
 
-}
+
